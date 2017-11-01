@@ -279,7 +279,7 @@
 	{
 		"ControlName"		"ImageButton"
 		"fieldName"			"ShowBackpackButton"
-		"xpos"				"c-250"
+		"xpos"				"c-265"
 		"ypos"				"270"
 		"zpos"				"6"
 		"wide"				"100"
@@ -329,7 +329,7 @@
 	{
 		"ControlName"		"ImageButton"
 		"fieldName"			"ShowCraftingButton"
-		"xpos"				"c-117"
+		"xpos"				"c-145"
 		"ypos"				"270"
 		"zpos"				"6"
 		"wide"				"100"
@@ -378,7 +378,7 @@
 	{
 		"ControlName"		"ImageButton"
 		"fieldName"			"ShowArmoryButton"
-		"xpos"				"c16"
+		"xpos"				"c-35"
 		"ypos"				"270"
 		"zpos"				"6"
 		"wide"				"100"
@@ -427,7 +427,7 @@
 	{
 		"ControlName"		"ImageButton"
 		"fieldName"			"ShowTradeButton"
-		"xpos"				"c150"
+		"xpos"				"c70"
 		"ypos"				"270"
 		"zpos"				"6"
 		"wide"				"100"
@@ -460,6 +460,57 @@
 		"fieldName"		"ShowTradeLabel"
 		"font"			"Medium14"
 		"labelText"		"Trading"
+		"textAlignment"	"north"
+		"xpos"			"c130"
+		"ypos"			"3000"
+		"zpos"			"7"
+		"wide"			"120"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"wrap"			"0"
+        
+	}
+	
+	"ShowPaintkitsButton"
+	{
+		"ControlName"		"ImageButton"
+		"fieldName"			"ShowPaintkitsButton"
+		"xpos"				"c180"
+		"ypos"				"270"
+		"zpos"				"6"
+		"wide"				"100"
+		"tall"				"50"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"tabPosition"		"0"
+		"labelText"			"Paints"
+		"textAlignment"		"south"
+		"Command"			"paintkit_preview"
+		"Default"			"0"
+		"font"				"Bold24"
+		"scaleImage"		"1"
+		"activeimage"		""
+		"inactiveimage"		""
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"fgcolor"			"White"
+		"defaultFgColor_override" "White"
+		"armedFgColor_override" "ya_Select"
+		"depressedFgColor_override" "White"
+		"selectedFgColor_override" "White"
+	}	
+	"ShowPaintkitsLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"ShowPaintkitsLabel"
+		"font"			"Medium14"
+		"labelText"		"Paints"
 		"textAlignment"	"north"
 		"xpos"			"c130"
 		"ypos"			"3000"
@@ -1879,5 +1930,18 @@
 		"tall"				"400"
 		"zpos"				"500"
 		"visible"			"1"
+	}
+	
+	"InspectionPanel"
+	{
+		"fieldName"		"InspectionPanel"
+		"xpos"			"cs-0.5"
+		"ypos"			"0"
+		"zpos"			"2000"
+		"wide"			"f0"
+		"tall"			"f100"
+		"visible"		"0"
+		"proportionaltoparent"	"1"
+		"bgcolor_override"	"30 25 25 245"
 	}
 }

@@ -119,15 +119,16 @@
         "tabyindent"	"-10"
 		"tabxdelta"		"0"
 		"tabwidth"		"200"
-		"tabheight"		"34"
+		"tabheight"		"24"
 		"transition_time" "0"
+		"yoffset" "14"
 		
 		"HeaderLine"
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"HeaderLine"
 			"xpos"			"0"
-			"ypos"			"33"
+			"ypos"			"37"
 			"zpos"			"7"
 			"wide"			"f0"
 			"tall"			"2"
@@ -144,7 +145,7 @@
 		{
 			"textinsetx"		"5"
             "textinsety"		"0"
-			"font"				"Bold24"   //"HudFontMediumBold"
+			"font"				"Bold18"   //"HudFontMediumBold"
 			"selectedcolor"		            "ya_MenuHi"
 			"unselectedcolor"	            "ya_MenuLo"	
 			"paintbackground"	"1"
