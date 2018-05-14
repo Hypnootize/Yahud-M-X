@@ -20,7 +20,7 @@
         "labelText"		"Loading"
         "textAlignment"	"west"
         "xpos"			"17"
-        "ypos"			"7"
+        "ypos"			"22"
         "zpos"			"210"
         "wide"			"490"
         "tall"			"58"
