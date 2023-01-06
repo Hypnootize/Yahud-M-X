@@ -1,12 +1,7 @@
 # Yahud-M-X
-Screenshots: https://imgur.com/a/59N9S
 
-How to Download and Install: https://imgur.com/a/w3Ah6
+**[SCREENSHOTS ALBUM](https://imgur.com/a/59N9S)** 
 
-Original Damage Color:
+**[INSTALLATION](https://imgur.com/a/w3Ah6)**
 
-hud_combattext_red 227
-
-hud_combattext_green 227
-
-hud_combattext_blue 227
+![](https://i.imgur.com/56IVWty.jpg)
